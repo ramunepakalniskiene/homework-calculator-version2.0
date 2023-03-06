@@ -62,6 +62,12 @@ public class Main {
         System.out.println("Product equals= " + product1);
         System.out.println("Quotient equals= " + quotient1);
 
+        System.out.println("Reminder----------------> ");
+        int result = 9/4;
+        System.out.println("Result is: " + result);
 
+        // modulo operator - remainder operator:
+        result=9%4;
+        System.out.println("and now result is : " + result + " MODULO OPERATOR");
     }
 }
